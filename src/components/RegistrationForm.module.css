@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Single+Day&display=swap');
+*{
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background: black;
+    height:130vh;
+}
+.title{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 67px;
+    color: #72DB73;
+}
+
+.div{
+    color:white;
+    margin:20px;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    width:400px;
+}
+
+.input{
+    height:50px;
+    width:100%;
+    color: white;
+    border:0;
+    outline:0;
+    background-image: linear-gradient(to right top, #292929, #292929, #292929, #292929, #292929);
+    padding-left: 15px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    margin-right:10px;
+}
+.checkbox{
+    display:flex;
+}
+.checkboxLabel{
+    color:#7C7C7C;
+}
+
+button{
+    background: #72DB73;
+    color:white;
+    border:0;
+    outline: none;
+    border-radius: 1.5em;
+    height:40px;
+    width:100%;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+span{
+    color: #72DB73;
+
+}
+
+.rules{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color:white;
+    width:470px;
+    margin:10px;
+    padding-left:40px;
+}
+
+p{
+    color:red;
+}
