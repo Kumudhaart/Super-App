@@ -61,7 +61,7 @@ input[type="checkbox"]{
     color:#7C7C7C;
 }
 
-button{
+.button{
     background: #72DB73;
     color:white;
     border:0;
@@ -92,8 +92,4 @@ span{
     width:470px;
     margin:10px;
     padding-left:40px;
-}
-
-p{
-    color:red;
 }

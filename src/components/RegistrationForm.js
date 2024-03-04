@@ -89,7 +89,7 @@ export default function RegistrationForm(){
                 <label className={styles.checkboxLabel} htmlFor="checkbox">Share my registration data with Superapp</label>
                 </div>
                 {error.checkbox ? <p>{error.checkbox}</p> :<></>}
-                <button  type="button" onClick={handleSubmit} >Sign up</button>
+                <button className={styles.button} type="button" onClick={handleSubmit} >Sign up</button>
             </form>
             <div className={styles.rules}>By clicking on Sign up. you agree to Superapp <span>Terms and Conditions of Use</span></div>
             <div className={styles.rules}>To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp <span>Privacy Policy</span></div>
